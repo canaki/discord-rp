@@ -1,0 +1,7 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+  deny from all
+</Files>
+
+<Files ~ "\.ini$">
+  deny from all
+</Files>
